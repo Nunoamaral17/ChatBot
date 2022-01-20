@@ -1,0 +1,28 @@
+{"intents": [
+        {"tag": "Saudacoes",
+         "patterns": ["Oi", "Ola", "Bom dia", "Boa tarde", "Boa noite", "Está alguém ai?", "Hello!"],
+         "responses": ["Hello!", "Ola, seja bem-vindo(a)", "Ola, como posso ajuda-lo?", "Boas meu caro amigo(a)!"],
+         "context_set": ""
+        },
+        {"tag": "Despedida",
+         "patterns": ["Até já", "Tchau", "Até breve", "Adeus", "Fica bem"],
+         "responses": ["Tchau, volte sempre.", "Ate breve", "Tenha um otimo dia :)"],
+         "context_set": ""
+        },
+        {"tag": "Nome",
+         "patterns": ["Quem es tu?", "Como te chamas?", "Qual e o teu nome?", "Quem es?"],
+         "responses": ["WeatherBot ;)", "Chamo-me WeatherBot", "Sou o WeatherBot!"],
+         "context_set": ""
+        },
+        {"tag": "Saudações",
+         "patterns": ["Tudo bem?", "Como esta?", "Esta tudo bem?", "Saudações"],
+         "responses": ["Esta tudo bem obrigado!", "Estou muito bem, agora porque tenho alguem para com quem falar :)"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 7am-4pm Monday-Friday!"],
+         "context_set": ""
+        }
+   ]
+}
